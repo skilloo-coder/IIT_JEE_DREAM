@@ -164,11 +164,12 @@ section:after {
   }
   
   .about_me img {
-  min-width: 2rem;
+  min-width: 3.5rem;
   max-width: 4rem;
-  min-height: 2rem;
+  min-height: 3.5rem;
   max-height: 4rem;
   margin: 1rem;
+  border: 2.5px solid #fff;
 }
 
 .image::before {
@@ -206,7 +207,7 @@ section:after {
 section {
   width: 100%;
   background: transparent;
-  min-height: 10rem;
+  min-height: 5rem;
   max-height: 100vh;
   position: relative;
 }
@@ -216,10 +217,10 @@ section:after {
   position: absolute;
   color: #fff;
   background: #333;
-  font-size: .4rem;
+  font-size: .6rem;
   font-style: 'poppins',sans-serif;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   min-height: 3rem;
   max-height: 100%;
   box-sizing: border-box;
@@ -232,21 +233,21 @@ section:after {
   text-align: center;
   color: #FFF;
   background: #333;
-  padding: 8px 11px;
+  padding: 5px 7px;
 }
 
 .PDF li{
   list-style: NONE;
   width: 100%;
   height: 2REM;
-  padding: .6REM;
+  padding: .3REM;
   
 }
 
 .PDF li a {
   color: #08FFA7;
   font-family:'poppins',sans-serif;
-  font-size: .6REM;
+  font-size: .4REM;
 }
 
 
