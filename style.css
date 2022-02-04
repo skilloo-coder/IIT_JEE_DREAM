@@ -156,3 +156,97 @@ section:after {
   }
 
 }
+
+@media (max-width:211px) {
+  
+  .about_me{
+    font-size: 0.7rem;
+  }
+  
+  .about_me img {
+  min-width: 4rem;
+  max-width: 8rem;
+  min-height: 4rem;
+  max-height: 8rem;
+  margin: 1rem;
+}
+
+.image::before {
+  content: "IIT JEE";
+  /* width: 100vw;
+  height: 5rem;
+  color: #fff;
+  background:#000;*/
+  position: absolute;
+  top: 2.5rem;
+  left: 2rem;
+  color: #fff;
+  background: #333;
+  padding: .1rem 1rem;
+  font-size: .6rem;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  letter-spacing: 2px;
+  word-spacing: 4rem;
+}
+
+
+.second_Header .session {
+  padding-bottom: 1rem;
+}
+
+.second_Header .name {
+  color: #fff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #222;
+}
+
+section {
+  width: 100%;
+  background: transparent;
+  min-height: 10rem;
+  max-height: 100vh;
+  position: relative;
+}
+
+section:after {
+  content: "Hello ! friends you can now able to use this file ...... I want to say something that this is not my website of books ( https://www.pdfdrive.com/ ).";
+  position: absolute;
+  color: #fff;
+  background: #333;
+  font-size: 1rem;
+  font-style: 'poppins',sans-serif;
+  width: 100%;
+  padding: 2rem;
+  min-height: 3rem;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.PDF {
+  width: 100%;
+  MIN-height: 3REM;
+  max-height: 20REM;
+  text-align: center;
+  color: #FFF;
+  background: #444;
+  padding: 12px 15px;
+}
+
+.PDF li{
+  list-style: NONE;
+  width: 100%;
+  height: 3REM;
+  padding: 1REM;
+  
+}
+
+.PDF li a {
+  color: #08FFA7;
+  font-family:'poppins',sans-serif;
+}
+
+
+  
+}
