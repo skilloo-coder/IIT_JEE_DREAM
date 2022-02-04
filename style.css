@@ -189,6 +189,7 @@ section:after {
   border: 5px solid #fff;
   letter-spacing: 2px;
   word-spacing: 4rem;
+  visibility: hidden;
 }
 
 
@@ -215,7 +216,7 @@ section:after {
   position: absolute;
   color: #fff;
   background: #333;
-  font-size: .7rem;
+  font-size: .4rem;
   font-style: 'poppins',sans-serif;
   width: 100%;
   padding: 2rem;
@@ -230,21 +231,22 @@ section:after {
   max-height: 20REM;
   text-align: center;
   color: #FFF;
-  background: #444;
-  padding: 12px 15px;
+  background: #333;
+  padding: 8px 11px;
 }
 
 .PDF li{
   list-style: NONE;
   width: 100%;
-  height: 3REM;
-  padding: 1REM;
+  height: 2REM;
+  padding: .6REM;
   
 }
 
 .PDF li a {
   color: #08FFA7;
   font-family:'poppins',sans-serif;
+  font-size: .6REM;
 }
 
 
