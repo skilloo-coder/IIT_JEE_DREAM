@@ -89,6 +89,7 @@ section:after {
   color: #fff;
   background: #333;
   font-size: 1rem;
+  font-style: 'poppins',sans-serif;
   width: 100%;
   padding: 2rem;
   min-height: 3rem;
@@ -98,14 +99,23 @@ section:after {
 
 .PDF {
   width: 100%;
-  height: 3REM;
+  MIN-height: 3REM;
+  max-height: 20REM;
   text-align: center;
   color: #FFF;
   background: #444;
   padding: 12px 15px;
 }
 
-.PDF a {
+.PDF li{
+  list-style: NONE;
+  width: 100%;
+  height: 3REM;
+  padding: 1REM;
+  
+}
+
+.PDF li a {
   color: #08FFA7;
   font-family:'poppins',sans-serif;
 }
