@@ -164,10 +164,10 @@ section:after {
   }
   
   .about_me img {
-  min-width: 3.5rem;
-  max-width: 4rem;
-  min-height: 3.5rem;
-  max-height: 4rem;
+  min-width: 5.5rem;
+  max-width: 6rem;
+  min-height: 5.5rem;
+  max-height: 6rem;
   margin: 1rem;
   border: 2.5px solid #fff;
 }
@@ -207,7 +207,7 @@ section:after {
 section {
   width: 100%;
   background: transparent;
-  min-height: 5rem;
+  min-height: 4rem;
   max-height: 100vh;
   position: relative;
 }
