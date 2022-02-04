@@ -160,14 +160,14 @@ section:after {
 @media (max-width:211px) {
   
   .about_me{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   
   .about_me img {
-  min-width: 4rem;
-  max-width: 8rem;
-  min-height: 4rem;
-  max-height: 8rem;
+  min-width: 2rem;
+  max-width: 4rem;
+  min-height: 2rem;
+  max-height: 4rem;
   margin: 1rem;
 }
 
@@ -182,7 +182,7 @@ section:after {
   left: 2rem;
   color: #fff;
   background: #333;
-  padding: .1rem 1rem;
+  padding: .1rem .7rem;
   font-size: .6rem;
   overflow: hidden;
   border-radius: 50px;
@@ -215,7 +215,7 @@ section:after {
   position: absolute;
   color: #fff;
   background: #333;
-  font-size: 1rem;
+  font-size: .7rem;
   font-style: 'poppins',sans-serif;
   width: 100%;
   padding: 2rem;
